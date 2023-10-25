@@ -1,6 +1,7 @@
 header{
     max-width: 1100px;
     margin: auto;
+    padding-bottom: 5rem;
 }
 .cover{
     display: flex;

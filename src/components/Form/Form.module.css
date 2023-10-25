@@ -11,7 +11,7 @@ form{
     border-radius: 50px;
     background-color: var(--color-grey);
     border: none;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
 }
 form button{
    background-color: var(--color-primary);
@@ -19,4 +19,6 @@ form button{
    border: none;
    border-radius: 50px;
   font-weight: bold;
+  height: inherit;
+  padding: 1rem;
 }
