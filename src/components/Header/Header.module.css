@@ -19,7 +19,7 @@ header{
     justify-content: center;
     align-items: flex-start;
 }
-h1{
+.header_info h1{
     font-size: 3.75rem;
     font-weight: 500;
     margin-left: 0;
@@ -59,7 +59,7 @@ p{
    }
 }
 @media(max-width:900px){
-    h1{
-        font-size: 1.75rem;
+    .header_info h1{
+        font-size: 2rem;
     }
 }

@@ -6,7 +6,6 @@
 h1{
     font-size: 2rem;
     text-align: center;
-    padding-bottom: 3rem;
 }
 .reasons_container{
     display: flex;
@@ -51,7 +50,7 @@ h1{
     .reason {
         justify-content: center;
         align-items: center;
-        max-width: 500px;   
+        
     }
     .reason p{
         text-align: center;

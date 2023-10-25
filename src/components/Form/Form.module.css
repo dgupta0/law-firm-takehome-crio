@@ -8,11 +8,15 @@ form{
 }
 .Input_text{
     height: inherit;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
     background-color: var(--color-grey);
     border: none;
     padding: 1rem 1.5rem;
+    color: white;
+    outline: none;
 }
+
 form button{
    background-color: var(--color-primary);
    color: var(--color-black);
