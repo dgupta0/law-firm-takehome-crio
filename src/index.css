@@ -1,6 +1,21 @@
 :root {
    --color-primary: #E3B748;
-  --color-black : #1E1E1E
+  --color-black : #1E1E1E;
   --color-white: #FFFFFF;
+  --color-grey : #1D1D1D;
+}
+body{
+  background-color: black;
+  margin: 0;
+  color: var(--color-white);
+
+}
+
+*{
+  font-family:  "Inter", sans-serif;;
+}
+
+button{
+  cursor: pointer;
 }
 
