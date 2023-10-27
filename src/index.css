@@ -19,5 +19,16 @@ body{
 button{
   cursor: pointer;
 }
+.swiper-slide {
+  margin: 0px !important;
+}
+.swiper-wrapper{
+  gap: 1rem !important;
+}
+@media screen and (max-width: 600px) {
+  .swiper-container {
+    width: 600px !important;
+  }
+}
 
 

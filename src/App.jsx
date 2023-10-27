@@ -1,4 +1,5 @@
 import './App.css'
+import Carousels from './components/Carousels/Carousels';
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
 import Verticals from './components/Verticals/Verticals';
@@ -12,6 +13,7 @@ function App() {
     <Intro/>
     <WhyUs/>
     <Verticals/>
+    <Carousels/>
    </main>
    </>
   )
