@@ -13,8 +13,7 @@
     padding-top: 0;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    min-height: 300px;
+    min-height: 400px;
     padding: 1rem;
    
 }
@@ -25,6 +24,7 @@
 }
 .accordion{
     border: 1px solid white;
+    align-self: flex-end;
 }
 @media(max-width:800px){
     .sub_container{
