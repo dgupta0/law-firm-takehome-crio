@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-form{
+.form_subscribe{
     width: fit-content;
     border-radius: 0;
     background-color:  rgba(255, 255, 255, .1);
@@ -26,16 +26,16 @@ form{
     justify-content: center;
    
 }
-form > *{
+.form_subscribe > *{
     border-radius: 5px;
     border: none;
 }
-form > input{
+.form_subscribe > input{
     padding-left: 1rem;
     background-color:  rgba(255, 255, 255,9.9);
     outline: none;
 }
-form button{
+.form_subscribe button{
     border-radius: 5px;
     padding:  0.75rem 2rem;
     background-color: var(--color-primary);
@@ -43,16 +43,16 @@ form button{
     font-weight: bold;
 }
 @media(max-width: 600px){
-    form{
+    .form_subscribe{
         flex-direction: column;
         align-items: flex-start;
         width: 90%;
         background-color: transparent;
     }
-    form input{
+    .form_subscribe input{
         height: 40px;
     }
-    form  > * {
+    .form_subscribe  > * {
         width: 100%
     }
     
