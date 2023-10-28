@@ -31,6 +31,8 @@ button{
   }
 }
 
+/* changing mui accordion css */
+
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
   background-color: var(--color-black) !important;
   border: 1px solid  rgba(255, 255, 255, .1)  !important;
@@ -38,6 +40,9 @@ button{
 .css-67l5gl{
   background-color:  var(--color-black) !important;
   border: 1px solid  rgba(255, 255, 255, .1)  !important;
+}
+.css-17o5nyn{
+  padding: 1rem !important;
 }
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
   border-left: none  !important;

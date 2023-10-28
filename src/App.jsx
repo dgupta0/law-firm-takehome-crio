@@ -6,6 +6,7 @@ import Team from './components/Team/Team';
 import Verticals from './components/Verticals/Verticals';
 import WhyUs from './components/WhyUs/WhyUs';
 import FAQ from './components/FAQ/FAQ';
+import Subscribe from './components/Subscribe/Subscribe';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Carousels/>
     <Team/>
     <FAQ/>
+    <Subscribe/>
    </main>
    </>
   )
