@@ -5,6 +5,7 @@ import Intro from './components/Intro/Intro';
 import Team from './components/Team/Team';
 import Verticals from './components/Verticals/Verticals';
 import WhyUs from './components/WhyUs/WhyUs';
+import FAQ from './components/FAQ/FAQ';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Verticals/>
     <Carousels/>
     <Team/>
+    <FAQ/>
    </main>
    </>
   )
