@@ -13,8 +13,9 @@
     padding-top: 0;
     display: flex;
     justify-content: space-between;
-    min-height: 400px;
+    min-height: 300px;
     padding: 1rem;
+    gap: 1rem;
    
 }
 .FAQ_heading p{
@@ -25,6 +26,7 @@
 .accordion{
     border: 1px solid white;
     align-self: flex-end;
+    max-width: 400px;
 }
 @media(max-width:800px){
     .sub_container{
@@ -35,5 +37,8 @@
         text-align: center;
         justify-content: center;
         margin: auto;
+    }
+    .accordion{
+        max-width: 100%;
     }
 }

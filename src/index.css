@@ -38,23 +38,13 @@ button{
 .css-67l5gl{
   background-color:  var(--color-black) !important;
   border: 1px solid  rgba(255, 255, 255, .1)  !important;
-  width: 400px !important;
 }
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
-  width: 400px !important;
   border-left: none  !important;
   border-right: none  !important;
   padding: 0.5rem;
 }
 
-@media(max-width:800px){
-  .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
-    width: 100% !important;
-  }
-  .css-67l5g{
-    width: 100% !important;
-  }
-}
 
 
 
