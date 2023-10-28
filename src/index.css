@@ -40,8 +40,12 @@ button{
 .css-67l5gl{
   background-color:  var(--color-black) !important;
   border: 1px solid  rgba(255, 255, 255, .1)  !important;
+  border-left: none  !important;
+  border-right: none  !important;
 }
 .css-17o5nyn{
+  border-left: none  !important;
+  border-right: none  !important;
   padding: 1rem !important;
 }
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
