@@ -7,6 +7,7 @@ import Verticals from './components/Verticals/Verticals';
 import WhyUs from './components/WhyUs/WhyUs';
 import FAQ from './components/FAQ/FAQ';
 import Subscribe from './components/Subscribe/Subscribe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <FAQ/>
     <Subscribe/>
    </main>
+   <Footer/>
    </>
   )
 }
